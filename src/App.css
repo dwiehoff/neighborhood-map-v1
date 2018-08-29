@@ -17,6 +17,33 @@
   font-size: large;
 }
 
+.Filter,
 .Map {
-  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+#map {
+  height: 100vh; /* viewport height */
+}
+
+.Results li {
+  display: inline-block;
+  margin: 5px 5px;
+  border: 2px solid navy;
+  color: navy;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
+.Results li:hover {
+  background-color: navy;
+  color: white;
+  cursor: pointer;
+}
+.active {
+  background-color: green;
+}
+
+.Details li {
+  list-style-type: none;
 }
